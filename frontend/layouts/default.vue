@@ -1,7 +1,6 @@
 <template>
   <v-app id="inspire">
     <toolbar :state="layout"/>
-    <sidenav-left :state="layout"/>
     <v-content>
       <v-container fluid>
         <nuxt></nuxt>

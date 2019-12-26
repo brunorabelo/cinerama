@@ -1,8 +1,8 @@
 <template>
   <v-footer color="blue-grey" class="white--text" app>
-    <span>Vuetify</span>
+    <span>Cinerama</span>
     <v-spacer></v-spacer>
-    <span>&copy; 2017</span>
+    <span>&copy; 2019</span>
   </v-footer>
 </template>
 
