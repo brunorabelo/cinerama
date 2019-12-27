@@ -35,7 +35,7 @@ const api = {
     },
     save_rating(rating_info){
         return post('api/save_rating',{rating_info:rating_info});
-    }
+    },
 
 
 

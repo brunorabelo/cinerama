@@ -54,6 +54,10 @@ def list_todos(request):
     todos = todo_svc.list_todos()
     return JsonResponse({'todos': todos})
 
+def list_movies_now_playing(request):
+    
+    return JsonResponse({'movies':''})
+
 
 def _user2dict(user):
     d = {
