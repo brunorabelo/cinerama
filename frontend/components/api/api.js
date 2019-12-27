@@ -18,6 +18,10 @@ const api = {
     },
     list_todos(){
         return get('/api/list_todos');
+    },
+    list_movies_now_playing(){
+        return get('/api/list_movies_now_playing');
+
     }
 }
 export default api;
