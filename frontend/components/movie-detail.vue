@@ -17,10 +17,12 @@
         </v-card-title>
         <v-divider class="mx-4"></v-divider>
 
-
+        <div v-if="logged_user">
+          <v-form ref='form'>
         <v-card-text>
           Sua avaliação:
         <v-rating
+          v-model="rating_input"
           :value=movie_details.user_rating
           color="amber"
           dense
@@ -30,8 +32,10 @@
         ></v-rating>
     </v-card-text>
         <v-card-actions>
-          <v-btn flat color="orange">Salvar</v-btn>
+          <v-btn :loading='loading' flat color="orange" @click.native="save_rating()">Salvar</v-btn>
         </v-card-actions>
+          </v-form>
+        </div>
       </v-card>
     </v-flex>
   </v-layout>
@@ -42,20 +46,43 @@
 
 
 <script>
+import AppApi from '~apijs'
+
+
   export default {
     name: 'movieDetail',
   props: ['movie_details'],
-  data: () => ({
-      loading: false,
-      selection: 1,
-    }),
-
+  data () {
+    return {
+      loading:false,
+      rating_input:this.movie_details.user_rating
+    }
+  },
+  computed:{
+      logged_user(){
+        return this.$store.getters.logged_user
+      }
+  },
     methods: {
       reserve () {
-        this.loading = true
 
         setTimeout(() => (this.loading = false), 2000)
       },
+      save_rating(){
+        this.loading = true
+
+        this.rating_info= {
+          user_rating:this.rating_input,
+          movie_id:this.movie_details.id
+        }
+
+
+         AppApi.save_rating(this.rating_info).then(()=>
+        {
+          this.loading=false
+        }) 
+ 
+      }
     },
   }
 

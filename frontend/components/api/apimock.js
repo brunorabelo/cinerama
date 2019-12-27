@@ -168,8 +168,14 @@ const api = {
                   poster_path: "http://image.tmdb.org/t/p/original/mbsX8ZynHg6FoD1Pt6j2jCRAZBu.jpg"
                 },
             ]);   
-    }
+    },
 
+
+    save_rating(rating_info){
+      return mockasync({
+
+      });
+    }
 
 
 

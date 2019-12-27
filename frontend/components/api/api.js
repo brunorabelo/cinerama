@@ -21,8 +21,29 @@ const api = {
     },
     list_movies_now_playing(){
         return get('/api/list_movies_now_playing');
+    },
 
+    get_movie_details(movieid){
+        return get('api/get_movie_details',{movie_id:movieid});
+    },
+
+    get_movie_list(user){
+        return get('api/get_movie_list',{user:user});
+    },
+    get_movies_search_result(moviename){
+        return get('api/get_movies_search_result',{movie_search:moviename});
+    },
+    save_rating(rating_info){
+        return post('api/save_rating',{rating_info:rating_info});
     }
+
+
+
+
+
+
+
+
 }
 export default api;
 
