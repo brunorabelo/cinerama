@@ -1,6 +1,8 @@
 <template>
+<div>
+  <h1>Filmes em Cartaz</h1>
 <home :movies="movies" v-if="movies"></home>
-
+</div>
 </template>
 
 

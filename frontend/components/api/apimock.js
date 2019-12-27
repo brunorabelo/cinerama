@@ -139,8 +139,35 @@ const api = {
                 },
                 
             ]);
-
-
+    },
+    get_movies_search_result(moviename){
+        return mockasync(
+            [
+                {
+                  poster_path: "http://image.tmdb.org/t/p/original/4KvrvcqckdupXXO2YnANtyG7QLK.jpg",
+                  id: 1598,
+                  backdrop_path: "http://image.tmdb.org/t/p/original/zDVrWS9PzI0HJU1kyfO6UNsx9br.jpg",
+                  title: "Cape Fear",
+                  overview: "Sam Bowden is a small-town corporate attorney. Max Cady is a tattooed, cigar-smoking, bible-quoting, psychotic rapist. What do they have in common? Fourteen years ago, Sam was a public defender assigned to Max Cady's rape trial, and he made a serious error: he hid a document from his illiterate client that could have gotten him acquitted. Now, the cagey, bibliophile Cady has been released, and he intends to teach Sam Bowden and his family a thing or two about loss.",
+                  release_date: "1991-11-15"
+                },
+                {
+                  poster_path: "http://image.tmdb.org/t/p/original/reA4wlTY9qGwryVftscFT2q0ZLK.jpg",
+                  id: 10543,
+                  backdrop_path: "http://image.tmdb.org/t/p/original/yBQFqrRyvf7WrmEDAzrny982uDJ.jpg",
+                  title: "Fear",
+                  overview: "A 16 year old girl takes up with a charming young man who quickly shows his colors when he beats a friend simply for walking with her and then goes totally ballistic after she tries to break up with him.",
+                  release_date: "1996-04-12"
+                },
+                {
+                  id: 392058,
+                  title: "Fear, Inc.",
+                  release_date: "2016-04-15",
+                  backdrop_path: "http://image.tmdb.org/t/p/original/A5rCoD620Eg8jqotGEWXdBl1UDY.jpg",
+                  overview: "Horror junkie Joe Foster gets to live out his ultimate scary movie fantasy courtesy of Fear Inc., a company that specializes in giving you the fright of your life. But as lines blur between what is and is not part of the game, Joe's dream come true begins to look more like a nightmare.",
+                  poster_path: "http://image.tmdb.org/t/p/original/mbsX8ZynHg6FoD1Pt6j2jCRAZBu.jpg"
+                },
+            ]);   
     }
 
 

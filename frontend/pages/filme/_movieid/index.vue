@@ -1,5 +1,5 @@
 <template>
-    <movie-detail :movie_details="movie_details" :user="user"/>  
+    <movie-detail :movie_details="movie_details"/>  
 </template>
 
 <script>
