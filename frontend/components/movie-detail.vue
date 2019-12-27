@@ -38,7 +38,16 @@
         </div>
       </v-card>
     </v-flex>
+     <v-snackbar
+      :timeout="6000"
+      color="success"
+      v-model="snackbar"
+    >
+      {{ snack_text }}
+      <v-btn flat color="pink" @click.native="snackbar = false">Close</v-btn>
+    </v-snackbar>
   </v-layout>
+  
 </template>
 
 
@@ -48,6 +57,7 @@
 <script>
 import AppApi from '~apijs'
 
+import Snacks from '~/helpers/Snacks.js'
 
   export default {
     name: 'movieDetail',
@@ -55,7 +65,9 @@ import AppApi from '~apijs'
   data () {
     return {
       loading:false,
-      rating_input:this.movie_details.user_rating
+      rating_input:this.movie_details.user_rating,
+      snack_text:'',
+      snackbar:false
     }
   },
   computed:{
@@ -80,6 +92,8 @@ import AppApi from '~apijs'
          AppApi.save_rating(this.rating_info).then(()=>
         {
           this.loading=false
+          this.snackbar=true
+          this.snack_text="Salvo com sucesso!"
         }) 
  
       }

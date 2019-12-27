@@ -5,8 +5,8 @@
       <v-btn flat dark ripple :to="{name: 'index'}" >Cinerama</v-btn>
     </v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-text-field  hide-details single-line label="Pesquisar Filmes" :to="{name:'index'}"></v-text-field>
-     <v-btn flat icon color="white">
+    <v-text-field  hide-details v-model="movie_search" single-line label="Pesquisar Filmes" ></v-text-field>
+     <v-btn flat icon color="white" @click="search">
               <v-icon>search</v-icon>
             </v-btn>
     
@@ -71,6 +71,11 @@
       ])
     ),
     props: ['state'],
+    data (){
+      return{
+        movie_search:""
+      }
+    },
     methods: {
       open_login_dialog (evt) {
         this.$refs.login_dialog.open();
@@ -81,6 +86,12 @@
           this.$store.commit('SET_LOGGED_USER', null);
           Snacks.show(this.$store, {text: 'Até logo!'})
         });
+      },
+      search(){
+        
+        this.$router.push({ name: "search-moviename",params:{moviename:this.movie_search} });
+
+
       }
     }
   }
