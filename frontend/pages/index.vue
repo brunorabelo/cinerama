@@ -1,11 +1,17 @@
 <template>
 <home :movies="movies" v-if="movies"></home>
+
 </template>
+
+
+
 
 <script>
 
 import home from '~/components/Home.vue'
 import AppApi from '~apijs'
+
+
 
 export default {
   components:{

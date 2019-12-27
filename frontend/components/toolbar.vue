@@ -28,6 +28,11 @@
         </v-list>
         <v-divider></v-divider>
         <v-list>
+          <v-list-tile :to="{name: 'user-username',params:{username:logged_user.username}}">
+            <v-list-tile-content>
+              <v-list-tile-title>Meus filmes</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
           <v-list-tile @click="switchMode()">
             <v-list-tile-content>
               <v-list-tile-title>Staff mode</v-list-tile-title>

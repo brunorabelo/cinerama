@@ -1,20 +1,37 @@
 <template>
-    <h1>Página do filme {{movieid}}</h1>  
+    <movie-detail :movie_details="movie_details" :user="user"/>  
 </template>
 
 <script>
 
+import movieDetail from '~/components/movie-detail.vue'
+import AppApi from '~apijs'
+
+
 export default {
+    components: {
+    'movie-detail':movieDetail
+    },
     asyncData (context){
-        return{
-            movieid: context.params.movieid
+        const movieid = context.params.movieid
+        return AppApi.get_movie_details(movieid).then(
+         result => {
+           
+        return {
+          movie_details: result.data
         }
+      }
+    )
     },
     data () {
-        return {}
+        return {
+            
+        }
   }
 }
 </script>
+
+
 
 <style>
 </style>
