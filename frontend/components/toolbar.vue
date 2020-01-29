@@ -88,7 +88,7 @@
         });
       },
       search(){
-        
+        debugger
         this.$router.push({ name: "search-moviename",params:{moviename:this.movie_search} });
 
 

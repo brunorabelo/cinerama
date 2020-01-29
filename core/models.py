@@ -18,14 +18,14 @@ class ActivityLog(models.Model):
             self.created_at,
         )
 
+class Movie(models.Model):
 
-class Todo(models.Model):
-    description = models.CharField(max_length=512)
-    done = models.BooleanField(default=False)
+    tmdb_id = models.IntegerField()
+    title = models.CharField(max_length=200,null=True,blank=True)
+    overview = models.TextField(null=True,blank=True)
+    release_date = models.DateField(null=True,blank=True)
+    backdrop_path = models.URLField(null=True,blank=True)
+    poster_path = models.URLField(null=True,blank=True)
 
-    def to_dict_json(self):
-        return {
-            'id': self.id,
-            'description': self.description,
-            'done': self.done,
-        }
+    user_ratings = models.ManyToManyField(User)
+

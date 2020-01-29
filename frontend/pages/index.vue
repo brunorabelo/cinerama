@@ -1,12 +1,9 @@
 <template>
 <div>
-  <h1>Filmes em Cartaz</h1>
-<home :movies="movies" v-if="movies"></home>
+  <h1 align="center">Filmes em Cartaz</h1>
+<home :movies="movie_list" v-if="movie_list"></home>
 </div>
 </template>
-
-
-
 
 <script>
 
@@ -24,7 +21,7 @@ export default {
     return AppApi.list_movies_now_playing().then(
       result => {
         return {
-          movies: result.data
+          movie_list: result.data['movies']
         }
       }
     )

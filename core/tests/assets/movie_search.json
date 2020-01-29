@@ -1,0 +1,92 @@
+{
+    "page": 1,
+    "total_results": 5,
+    "total_pages": 1,
+    "results": [
+        {
+            "popularity": 34.639,
+            "vote_count": 17285,
+            "video": false,
+            "poster_path": "/tptjnB2LDbuUWya9Cx5sQtv5hqb.jpg",
+            "id": 680,
+            "adult": false,
+            "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+            "original_language": "en",
+            "original_title": "Pulp Fiction",
+            "genre_ids": [
+                80,
+                53
+            ],
+            "title": "Pulp Fiction: Tempo de Violência",
+            "vote_average": 8.5,
+            "overview": "Jules Winnfield e Vincent Vega são dois assassinos que saem para recuperar uma mala roubada de seu empregador, o chefe da máfia Marsellus Wallace. Wallace também pede, alguns dias mais tarde, para Vincent levar sua esposa Mia para passear, quando o próprio Wallace estará fora da cidade. Butch Coolidge é um envelhecido boxer que é pago por Wallace para perder sua próxima luta. As vidas dessas pessoas aparentemente não relacionadas são tecidas compondo uma série de engraçados, estranhos e desnecessários incidentes.",
+            "release_date": "1995-03-03"
+        },
+        {
+            "popularity": 0.916,
+            "id": 109005,
+            "video": false,
+            "vote_count": 0,
+            "vote_average": 0,
+            "title": "Pulp Fiction Art",
+            "release_date": "2005-01-01",
+            "original_language": "en",
+            "original_title": "Pulp Fiction Art",
+            "genre_ids": [
+                99
+            ],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "",
+            "poster_path": "/yqbnCy6YCc9VY8cnkHGEgiylXey.jpg"
+        },
+        {
+            "popularity": 1.243,
+            "id": 619836,
+            "video": false,
+            "vote_count": 2,
+            "vote_average": 7,
+            "title": "Pulp Fiction: The Facts",
+            "release_date": "2002-08-20",
+            "original_language": "en",
+            "original_title": "Pulp Fiction: The Facts",
+            "genre_ids": [],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "",
+            "poster_path": null
+        },
+        {
+            "popularity": 0.623,
+            "id": 295641,
+            "video": false,
+            "vote_count": 1,
+            "vote_average": 4,
+            "title": "Pulp Fiction: the Golden Age of Storytelling",
+            "release_date": "2009-01-01",
+            "original_language": "en",
+            "original_title": "Pulp Fiction: the Golden Age of Storytelling",
+            "genre_ids": [],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "",
+            "poster_path": null
+        },
+        {
+            "popularity": 0.6,
+            "id": 323819,
+            "video": false,
+            "vote_count": 1,
+            "vote_average": 4,
+            "title": "UFOTV Presents: Pulp Fiction: The Golden Age of Storytelling",
+            "release_date": "2010-01-01",
+            "original_language": "en",
+            "original_title": "UFOTV Presents: Pulp Fiction: The Golden Age of Storytelling",
+            "genre_ids": [],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "",
+            "poster_path": "/iU0Rnw8R0fehqE4lN8GXboCJYOM.jpg"
+        }
+    ]
+}

@@ -1,0 +1,397 @@
+{
+    "results": [
+        {
+            "popularity": 244.49,
+            "vote_count": 1370,
+            "video": false,
+            "poster_path": "/s4E1xI2m8wnaot3Ti3tAbtxHTk3.jpg",
+            "id": 530915,
+            "adult": false,
+            "backdrop_path": "/ds9GKAMhxv5AbprmZ2xCpK8FiEG.jpg",
+            "original_language": "en",
+            "original_title": "1917",
+            "genre_ids": [
+                28,
+                18,
+                36,
+                10752
+            ],
+            "title": "1917",
+            "vote_average": 8.1,
+            "overview": "Os cabos Schofield (George MacKay) e Blake (Dean-Charles Chapman) são jovens soldados britânicos durante a Primeira Guerra Mundial. Quando eles são encarregados de uma missão aparentemente impossível, os dois precisam atravessar território inimigo, lutando contra o tempo, para entregar uma mensagem que pode salvar seus colegas de batalhão.",
+            "release_date": "2020-01-23"
+        },
+        {
+            "popularity": 119.03,
+            "vote_count": 2716,
+            "video": false,
+            "poster_path": "/aG3TamIsEuiMa0yJ2nVgDWZ7JPu.jpg",
+            "id": 181812,
+            "adult": false,
+            "backdrop_path": "/jOzrELAzFxtMx2I4uDGHOotdfsS.jpg",
+            "original_language": "en",
+            "original_title": "Star Wars: The Rise of Skywalker",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "title": "Star Wars: A Ascensão Skywalker",
+            "vote_average": 6.5,
+            "overview": "Com o retorno do Imperador Palpatine, todos voltam a temer seu poder e, com isso, a Resistência toma a frente da batalha que ditará os rumos da galáxia. Treinando para ser uma completa Jedi, Rey (Daisy Ridley) ainda se encontra em conflito com seu passado e futuro, mas teme pelas respostas que pode conseguir a partir de sua complexa ligação com Kylo Ren (Adam Driver), que também se encontra em conflito pela Força.",
+            "release_date": "2019-12-19"
+        },
+        {
+            "popularity": 87.587,
+            "vote_count": 1313,
+            "video": false,
+            "poster_path": "/jvg9Rf3mvsVTnhuyxPlN0eEL76C.jpg",
+            "id": 512200,
+            "adult": false,
+            "backdrop_path": "/zTxHf9iIOCqRbxvl8W5QYKrsMLq.jpg",
+            "original_language": "en",
+            "original_title": "Jumanji: The Next Level",
+            "genre_ids": [
+                28,
+                12,
+                35,
+                14
+            ],
+            "title": "Jumanji: Próxima Fase",
+            "vote_average": 6.7,
+            "overview": "Tentado em revisitar o mundo de Jumanji, Spencer (Alex Wolff) decide consertar o jogo de videogame que permite que os jogadores sejam transportados ao local. Logo o quarteto formado por Smolder Bravestone (Dwayne Johnson), Moose Finbar (Kevin Hart), Shelly Oberon (Jack Black) e Ruby Roundhouse (Karen Gillan) ressurge, agora comandado por outras pessoas: os avôs de Spencer e Fridge (Danny DeVito e Danny Glover) assumem as personas de Bravestone e Finbar, enquanto o próprio Fridge (Ser'Darius Blain) agora está sob a pele de Oberon.",
+            "release_date": "2020-01-16"
+        },
+        {
+            "popularity": 81.976,
+            "vote_count": 73,
+            "video": false,
+            "poster_path": "/apBcoqC7ob39hPZsOSJBxVLeRfZ.jpg",
+            "id": 554241,
+            "adult": false,
+            "backdrop_path": "/gqOjAU5ucgrXFszSVq6TynsKHZG.jpg",
+            "original_language": "en",
+            "original_title": "Playing with Fire",
+            "genre_ids": [
+                35,
+                10751
+            ],
+            "title": "Brincando com Fogo",
+            "vote_average": 6.8,
+            "overview": "Jake Carson (John Cena) é um bombeiro extremamente dedicado e rigoroso, que não aceita que algo ocorra fora das regras impostas pela corporação. Ao resgatarem as crianças Bryan (Brianna Hildebrand), Zoey (Finley Rose Slater) e Will (Christian Convery), Jake e seus companheiros de trabalho enfrentam um enorme desafio: como não conseguem localizar os pais do trio, precisam eles mesmos cuidar das crianças, mesmo sem ter o menor talento para a função.",
+            "release_date": "2019-12-12"
+        },
+        {
+            "popularity": 78.287,
+            "id": 330457,
+            "video": false,
+            "vote_count": 2011,
+            "vote_average": 7,
+            "title": "Frozen 2",
+            "release_date": "2020-01-02",
+            "original_language": "en",
+            "original_title": "Frozen II",
+            "genre_ids": [
+                16,
+                10751,
+                10402,
+                12
+            ],
+            "backdrop_path": "/xJWPZIYOEFIjZpBL7SVBGnzRYXp.jpg",
+            "adult": false,
+            "overview": "De volta à infância de Elsa e Anna, as duas garotas descobrem uma história do pai, quando ainda era príncipe de Arendelle. Ele conta às meninas a história de uma visita à floresta dos elementos, onde um acontecimento inesperado teria provocado a sepaação dos habitantes da cidade com os quatro elementos fundamentais: ar, fogo, terra e água. Esta revelação ajudará Elsa a compreender a origem de seus poderes.",
+            "poster_path": "/psm6gdTGoDdQSzLhghaLIEysTWj.jpg"
+        },
+        {
+            "popularity": 64.231,
+            "vote_count": 761,
+            "video": false,
+            "poster_path": "/aDmuBImEP5blvrfzPBmIJwYZpoS.jpg",
+            "id": 331482,
+            "adult": false,
+            "backdrop_path": "/3uTxPIdVEXxHpsHOHdJC24QebBV.jpg",
+            "original_language": "en",
+            "original_title": "Little Women",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "title": "Adoráveis Mulheres",
+            "vote_average": 8,
+            "overview": "As irmãs Jo (Saoirse Ronan), Beth (Eliza Scanlen), Meg (Emma Watson) e Amy (Florence Pugh) amadurecem na virada da adolescência para a vida adulta enquanto os Estados Unidos atravessam a Guerra Civil. Com personalidades completamente diferentes, elas enfrentam os desafios de crescer unidas pelo amor que nutrem umas pelas outras.",
+            "release_date": "2020-01-09"
+        },
+        {
+            "popularity": 40.882,
+            "vote_count": 646,
+            "video": false,
+            "poster_path": "/3IHMR9l5VLs8IlU5yH83L7me1hY.jpg",
+            "id": 503919,
+            "adult": false,
+            "backdrop_path": "/i51wnN9phojyn14xHjQt6rv1r0x.jpg",
+            "original_language": "en",
+            "original_title": "The Lighthouse",
+            "genre_ids": [
+                18,
+                14,
+                27,
+                9648
+            ],
+            "title": "O Farol",
+            "vote_average": 7.7,
+            "overview": "Início do século XX. Thomas Wake (Willem Dafoe), responsável pelo farol de uma ilha isolada, contrata o jovem Ephraim Winslow (Robert Pattinson) para substituir o ajudante anterior e colaborar nas tarefas diárias. No entanto, o acesso ao farol é mantido fechado ao novato, que se torna cada vez mais curioso com este espaço privado. Enquanto os dois homens se conhecem e se provocam, Ephraim fica obcecado em descobrir o que acontece naquele espaço fechado, ao mesmo tempo em que fenômenos estranhos começam a acontecer ao seu redor.",
+            "release_date": "2020-01-02"
+        },
+        {
+            "popularity": 30.314,
+            "vote_count": 149,
+            "video": false,
+            "poster_path": "/e36fdzllxbsZ15GEPnaabeekdkm.jpg",
+            "id": 443791,
+            "adult": false,
+            "backdrop_path": "/fYPiQewg7ogbzro2XcCTACSB2KC.jpg",
+            "original_language": "en",
+            "original_title": "Underwater",
+            "genre_ids": [
+                27,
+                878,
+                53
+            ],
+            "title": "Ameaça Profunda",
+            "vote_average": 6.1,
+            "overview": "Um grupo de pesquisadores se encontra em um laboratório subaquático a 11 mil metros de profundidade, quando um terremoto causa a destruição do veículo e expõe a equipe ao risco de morte. Eles são obrigados a caminhar nas profundezas marítimas, com quantidade insuficiente de oxigênio, para tentarem sobreviver.",
+            "release_date": "2020-01-09"
+        },
+        {
+            "popularity": 21.571,
+            "vote_count": 84,
+            "video": false,
+            "poster_path": "/AiZBj8CGMMccHb37RpUykckH4fX.jpg",
+            "id": 465086,
+            "adult": false,
+            "backdrop_path": "/h4x5aN52nq78PM8zXD77THhZTB.jpg",
+            "original_language": "en",
+            "original_title": "The Grudge",
+            "genre_ids": [
+                27,
+                9648
+            ],
+            "title": "O Grito",
+            "vote_average": 5.3,
+            "overview": "Depois que uma jovem mãe mata sua família em sua própria casa, uma mãe solteira e um jovem detetive tentam investigar e resolver o caso. Mais tarde, ela descobre que a casa é amaldiçoada por um fantasma vingativo que condena aqueles que entram nela com uma morte violenta. Agora, ela corre para salvar a si mesma e a seu filho dos espíritos demoníacos da casa amaldiçoada em seu bairro.",
+            "release_date": "2020-01-16"
+        },
+        {
+            "popularity": 21.378,
+            "vote_count": 151,
+            "video": false,
+            "poster_path": "/iqJhHjD6k6T07waELjMKDpQJUP.jpg",
+            "id": 491283,
+            "adult": false,
+            "backdrop_path": "/hJXxDoCwchAuJ4K3gwtno2chgr8.jpg",
+            "original_language": "en",
+            "original_title": "Judy",
+            "genre_ids": [
+                18,
+                36,
+                10402
+            ],
+            "title": "Judy: Muito Além do Arco-Íris",
+            "vote_average": 6.9,
+            "overview": "Inverno de 1968. Com a carreira em baixa, Judy Garland (Renée Zellweger) aceita estrelar uma turnê em Londres, por mais que tal trabalho a mantenha afastada dos filhos menores. Ao chegar ela enfrenta a solidão e os conhecidos problemas com álcool e remédios, compensando o que deu errado em sua vida pessoal com a dedicação no palco.",
+            "release_date": "2020-01-16"
+        },
+        {
+            "popularity": 21.406,
+            "vote_count": 202,
+            "video": false,
+            "poster_path": "/1Y09MkMJ8CESSPW4fcbDm9s5cAS.jpg",
+            "id": 401200,
+            "adult": false,
+            "backdrop_path": "/apjcuU7u2MsSVmJCMaIIQwnlvNl.jpg",
+            "original_language": "en",
+            "original_title": "Kursk",
+            "genre_ids": [
+                28,
+                18,
+                36,
+                53
+            ],
+            "title": "Kursk - A Última Missão",
+            "vote_average": 6.6,
+            "overview": "Baseado em fatos reais, o filme narra a explosão e o naufrágio do submarino russo Kursk no ano de 2000. Os tripulantes precisam sobreviver às águas geladas do Mar de Barents enquanto esperam por um resgate que pode não chegar por causa do descaso das autoridades.",
+            "release_date": "2020-01-09"
+        },
+        {
+            "popularity": 15.403,
+            "id": 620683,
+            "video": false,
+            "vote_count": 107,
+            "vote_average": 8.4,
+            "title": "Minha Mãe é Uma Peça 3",
+            "release_date": "2019-12-26",
+            "original_language": "pt",
+            "original_title": "Minha Mãe é Uma Peça 3: O Filme",
+            "genre_ids": [
+                35
+            ],
+            "backdrop_path": "/n3wplZRjGiKqY1UY1IAJVs5dM3L.jpg",
+            "adult": false,
+            "overview": "Dona Hermínia (Paulo Gustavo) vai ter que se redescobrir e se reinventar porque seus filhos estão formando novas famílias. Essa supermãe vai ter que segurar a emoção para lidar com um novo cenário de vida: Marcelina (Mariana Xavier) está grávida e Juliano (Rodrigo Pandolfo) vai casar. Dona Hermínia está mais ansiosa do que nunca! Para completar as confusões, Carlos Alberto (Herson Capri), seu ex-marido, que esteve sempre por perto, agora resolve ficar ainda mais próximo.",
+            "poster_path": "/zw77BFPGJ73Lig8GwRzYj1XHq53.jpg"
+        },
+        {
+            "popularity": 7.382,
+            "id": 419706,
+            "video": false,
+            "vote_count": 30,
+            "vote_average": 5.1,
+            "title": "A Possessão de Mary",
+            "release_date": "2020-01-23",
+            "original_language": "en",
+            "original_title": "Mary",
+            "genre_ids": [
+                27
+            ],
+            "backdrop_path": "/3g6Aznrs25uQxxxqNiJ2KfCe7lU.jpg",
+            "adult": false,
+            "overview": "David é um capitão de navio que luta para dar uma vida melhor para sua família. Estranhamente levado a comprar um navio abandonado que está sendo leiloado, David acredita que ele será o ingresso sem volta para a felicidade e a prosperidade de seus amados. Entretanto, depois de embarcarem em uma jornada marítima, eventos aterrorizantes começam a assombrar a família, fazendo cada um deles questionar a própria sanidade.",
+            "poster_path": "/1mqNweXPrN5ppNxMIGgTYZljyAi.jpg"
+        },
+        {
+            "popularity": 6.275,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "/kP4CHFLlfGa4R2ao8mxTv5FE2LF.jpg",
+            "id": 637595,
+            "adult": false,
+            "backdrop_path": "/AmHH10zIWnFndGQKSQ8AS3juMtP.jpg",
+            "original_language": "pt",
+            "original_title": "O Filme do Bruno Aleixo",
+            "genre_ids": [
+                35
+            ],
+            "title": "O Filme do Bruno Aleixo",
+            "vote_average": 0,
+            "overview": "Personagem cômico e famoso no YouTube, o português Bruno Aleixo ganha seu próprio filme. Na trama, Bruno decide escrever uma autobiografia. Ele se reúne com amigos, para que eles lhe deem ideias para o texto.",
+            "release_date": "2020-01-23"
+        },
+        {
+            "popularity": 5.942,
+            "vote_count": 1,
+            "video": false,
+            "poster_path": "/ArKtoOpwmALcxfIB0tY5q62itJM.jpg",
+            "id": 655371,
+            "adult": false,
+            "backdrop_path": null,
+            "original_language": "en",
+            "original_title": "O Melhor Verão das Nossas Vidas",
+            "genre_ids": [
+                35
+            ],
+            "title": "O Melhor Verão das Nossas Vidas",
+            "vote_average": 1,
+            "overview": "Três melhores amigas são aprovadas para participar da final de um famoso festival de música. Porém, elas descobrem que estão de recuperação na escola e precisam arranjar uma maneira de comparecer ao festival em Guarujá sem que seus pais descubram.",
+            "release_date": "2020-01-23"
+        },
+        {
+            "popularity": 3.785,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "/55xQ76OtJRJSox4d0bRBqJ3nvAv.jpg",
+            "id": 656523,
+            "adult": false,
+            "backdrop_path": null,
+            "original_language": "pt",
+            "original_title": "A Morte Habita à Noite",
+            "genre_ids": [
+                18
+            ],
+            "title": "A Morte Habita à Noite",
+            "vote_average": 0,
+            "overview": "Aos cinquenta anos, alcoólatra e desempregado, a tábua de equilíbrio de Raul é a paixão por Lígia que nos últimos anos foi sua parceira de vida sem regras. Após ser abandonado por ela, deseja a bebida com mais vigor, contrai tuberculose e entre Postos de Saúde e trabalhos transitórios como o de faxineiro de uma Peixaria, constrói uma doce relação com Cássia, uma garota de dezesseis anos. É a primeira vez que ela apega-se de verdade a alguém. Porém, Raul ainda fragilizado pelo sumiço de Lígia e pela doença, não assume um contato mais sério com ela, que está a um passo da autodestruição. Já com o corpo e a mente bastante corroídos pela doença, surge Inês, a mulher mais triste que ele já conheceu. Um cadáver, que foi parar no quarto da Pensão onde mora. Ele parte com Inês em direção à praia do Janga em Olinda. Essa “viagem” faz nascer uma inesperada relação entre Raul e a “mulher triste” que será jogada ao mar.",
+            "release_date": "2020-01-23"
+        },
+        {
+            "popularity": 3.686,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "/exbM8qk6f6T44olJXcM8ix1sunL.jpg",
+            "id": 650755,
+            "adult": false,
+            "backdrop_path": null,
+            "original_language": "pt",
+            "original_title": "Atordoado, Eu Permaneço Atento",
+            "genre_ids": [
+                99
+            ],
+            "title": "Atordoado, Eu Permaneço Atento",
+            "vote_average": 0,
+            "overview": "O jornalista Dermi Azevedo nunca parou de lutar pelos direitos humanos e agora, três décadas após o fim da ditadura, assiste ao retorno das práticas daquela época.",
+            "release_date": "2020-01-15"
+        },
+        {
+            "popularity": 4.099,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "/q3DX4lLr3Sk27BP6qFUQvyPAxC4.jpg",
+            "id": 515477,
+            "adult": false,
+            "backdrop_path": null,
+            "original_language": "pt",
+            "original_title": "Adoniran – Meu Nome é João Rubinato",
+            "genre_ids": [
+                99
+            ],
+            "title": "Adoniran – Meu Nome é João Rubinato",
+            "vote_average": 0,
+            "overview": "Adoniran Barbosa, autor de sucessos como \"Trem das Onze\" e \"Saudosa Maloca\", carrega o título de maior sambista paulista de todos os tempos. A cidade de São Paulo era a personagem principal de suas canções e radionovelas. Através de imagens de arquivos raras e nunca vistas antes, o compositor e cantor paulistano, que faleceu em 1982, é redescoberto pelo público.",
+            "release_date": "2020-01-23"
+        },
+        {
+            "popularity": 1.444,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "/5vNeo1twNHKv4ZEDqN4SmDKTGKQ.jpg",
+            "id": 651866,
+            "adult": false,
+            "backdrop_path": null,
+            "original_language": "pt",
+            "original_title": "A Divisão",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "title": "A Divisão",
+            "vote_average": 0,
+            "overview": "No Rio de Janeiro da década de 1990, uma onda de sequestros assola a cidade maravilhosa. Quando o secretário de segurança e o chefe da polícia encarregam três policiais corruptos de tirar a cidade dessa situação, a Delegacia Anti-sequestro precisa entrar em ação para enfrentar o repetitivo número de casos envolvendo sequestros e mudar o cenário carioca.",
+            "release_date": "2020-01-09"
+        },
+        {
+            "popularity": 1.115,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": null,
+            "id": 649640,
+            "adult": false,
+            "backdrop_path": null,
+            "original_language": "pt",
+            "original_title": "Alcateia",
+            "genre_ids": [
+                18
+            ],
+            "title": "Alcateia",
+            "vote_average": 0,
+            "overview": "",
+            "release_date": "2020-01-08"
+        }
+    ],
+    "page": 1,
+    "total_results": 32,
+    "dates": {
+        "maximum": "2020-01-27",
+        "minimum": "2019-12-10"
+    },
+    "total_pages": 2
+}

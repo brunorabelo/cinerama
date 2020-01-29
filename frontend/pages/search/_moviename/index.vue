@@ -18,7 +18,7 @@ export default {
          result => {
            
         return {
-          movie_list: result.data
+          movie_list: result.data['movies']
         }
       }
     )

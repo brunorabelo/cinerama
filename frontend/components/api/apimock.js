@@ -35,19 +35,8 @@ const api = {
             user: logged_user,
         } : {authenticated: false});
     },
-    add_todo(newtask){
-        return mockasync({description: newtask, done: false});
-    },
-    list_todos(){
-        return mockasync({
-            todos: [
-                {description: 'Do the laundry', done: true},
-                {description: 'Walk the dog', done: false}
-            ]
-        });
-    },
     list_movies_now_playing(){
-        return mockasync([
+        return mockasync({movies:[
                 {
                   poster_path: "http://image.tmdb.org/t/p/original/e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg",
                   id: 297761,
@@ -67,7 +56,7 @@ const api = {
                   title: "Bad Moms",
                   backdrop_path: "http://image.tmdb.org/t/p/original/l9aqTBdafSo0n7u0Azuqo01YVIC.jpg",
                   }
-              ]); 
+              ]}); 
         
     },
 
@@ -100,7 +89,7 @@ const api = {
     get_movie_list(user){
 
         return mockasync(
-            [                
+            {movies:[                
                 {
                   id: 19404,
                   title: "Dilwale Dulhania Le Jayenge",
@@ -138,11 +127,11 @@ const api = {
                   user_rating: 4.0
                 },
                 
-            ]);
+            ]});
     },
     get_movies_search_result(moviename){
         return mockasync(
-            [
+          {movies:            [
                 {
                   poster_path: "http://image.tmdb.org/t/p/original/4KvrvcqckdupXXO2YnANtyG7QLK.jpg",
                   id: 1598,
@@ -167,13 +156,14 @@ const api = {
                   overview: "Horror junkie Joe Foster gets to live out his ultimate scary movie fantasy courtesy of Fear Inc., a company that specializes in giving you the fright of your life. But as lines blur between what is and is not part of the game, Joe's dream come true begins to look more like a nightmare.",
                   poster_path: "http://image.tmdb.org/t/p/original/mbsX8ZynHg6FoD1Pt6j2jCRAZBu.jpg"
                 },
-            ]);   
+            ]   
+          });
     },
 
 
     save_rating(rating_info){
       return mockasync({
-
+        
       });
     }
 
