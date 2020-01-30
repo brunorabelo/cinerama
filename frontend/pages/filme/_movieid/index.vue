@@ -1,48 +1,42 @@
 <template>
-    <movie-detail :movie_details="movie_details"/>  
+<div>
+  <movie-detail :movie_details="movie_details" />
+   <div v-if="key">
+   </div>
+</div>
 </template>
 
 <script>
-
-import movieDetail from '~/components/movie-detail.vue'
-import AppApi from '~apijs'
+import movieDetail from "~/components/movie-detail.vue";
+import AppApi from "~apijs";
 
 export default {
-    components: {
-    'movie-detail':movieDetail
-    },
-    asyncData (context){
-        const movieid = context.params.movieid
-        return AppApi.get_movie_details(movieid).then(
-         result => {
-           
-        return {
-          movie_details: result.data
-        }
-      }
-    )
-    },
-    computed:{
-      logged_user(){
-         
-        return this.$store.getters.logged_user
-      }
-      },
-      updated: function () {
-        AppApi.get_movie_details(movieid).then(
-         result => {
-           
-        return 
-          movie_details: result.data
-        })
-      
-      },
-    data () {
-        return {
-          movie_details : {}
-        }
+  watchQuery: ['logged_user'],
+  components: {
+    "movie-detail": movieDetail
   },
-}
+  data(){
+    return {
+      key :false
+    }
+  },
+  asyncData(context) {
+    const movie_id = context.params.movieid;
+    return AppApi.get_movie_details(movie_id).then(result => {
+      return {
+        movie_details: result.data
+      };
+    });
+  },
+  
+  computed: {
+    logged_user() {
+      return this.$store.getters.logged_user;
+    }
+  }
+
+  
+};
 </script>
 
 
