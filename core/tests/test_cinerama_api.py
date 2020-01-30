@@ -24,7 +24,7 @@ class TestCineramaApi(TestCase):
         movie_id=155 #batman
         rating_info = {
             "movie_id":movie_id,
-            "rating":4.5}
+            "user_rating":4.5}
         self._save_rating(jon,rating_info)
 
         self._assert_rating_user(jon,movie_id,4.5)
@@ -37,7 +37,7 @@ class TestCineramaApi(TestCase):
         movie_id=598 # cidade de deus
         rating_info = {
             "movie_id":movie_id,
-        "rating":3.0}
+        "user_rating":3.0}
         self._save_rating(jon,rating_info)
 
         self._assert_rating_user(jon,movie_id,3.0)
@@ -45,7 +45,7 @@ class TestCineramaApi(TestCase):
         movie_id=598 #cidade de deus
         rating_info = {
             "movie_id":movie_id,
-        "rating":5.0}
+        "user_rating":5.0}
 
         self._save_rating(jon,rating_info)
 
@@ -65,20 +65,20 @@ class TestCineramaApi(TestCase):
         movie_id=155 #batman
         rating_info = {
             "movie_id":movie_id,
-        "rating":1.5}
+        "user_rating":1.5}
         self._save_rating(mary,rating_info)
 
         movie_id=598 # cidade de deus
         rating_info = {
             "movie_id":movie_id,
-        "rating":5.0}
+        "user_rating":5.0}
         self._save_rating(mary,rating_info)
 
 
         movie_id=598 #cidade de deus
         rating_info = {
             "movie_id":movie_id,
-        "rating":1}
+        "user_rating":1}
 
         self._save_rating(mary,rating_info)
         
@@ -251,7 +251,7 @@ class TestCineramaApi(TestCase):
         self.assertEquals(data['user_rating'],rating)
         
     def _get_user_movie_list(self,client,username):
-        r = client.get('/api/get_movie_list',{'username':username})
+        r = client.get('/api/get_movie_list',{'user':username})
         self.assertEquals(200,r.status_code)
         data = json.loads(r.content.decode('utf-8'))
         self.assertIsNotNone(data)
