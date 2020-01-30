@@ -11,4 +11,14 @@ def user_jon():
     )
     return ze
 
+def user_mary():
+    mary = User.objects.create_user(
+        username='mary',
+        first_name='Mother',
+        last_name='Mary',
+        email='mary@example.com',
+        password='mary',
+    )
+    return mary
+
 

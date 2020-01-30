@@ -18,7 +18,7 @@
         <v-divider class="mx-4"></v-divider>
 
         <div v-if="logged_user">
-          <v-form ref='form'>
+          <v-form ref='form' :key="componentKey">
         <v-card-text>
           Sua avaliação:
         <v-rating
@@ -64,6 +64,7 @@ import Snacks from '~/helpers/Snacks.js'
   props: ['movie_details'],
   data () {
     return {
+      componentKey: 0,
       loading:false,
       rating_input:this.movie_details.user_rating,
       snack_text:'',
@@ -88,13 +89,16 @@ import Snacks from '~/helpers/Snacks.js'
           movie_id:this.movie_details.id
         }
 
+        const self = this
 
          AppApi.save_rating(this.rating_info).then(()=>
-        {
-          this.loading=false
-          this.snackbar=true
-          this.snack_text="Salvo com sucesso!"
-        }) 
+            {
+              this.loading=false
+              this.snackbar=true
+              this.snack_text="Salvo com sucesso!"
+              
+            }) 
+
  
       }
     },

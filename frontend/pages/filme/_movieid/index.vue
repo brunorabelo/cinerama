@@ -7,7 +7,6 @@
 import movieDetail from '~/components/movie-detail.vue'
 import AppApi from '~apijs'
 
-
 export default {
     components: {
     'movie-detail':movieDetail
@@ -23,11 +22,26 @@ export default {
       }
     )
     },
+    computed:{
+      logged_user(){
+         
+        return this.$store.getters.logged_user
+      }
+      },
+      updated: function () {
+        AppApi.get_movie_details(movieid).then(
+         result => {
+           
+        return 
+          movie_details: result.data
+        })
+      
+      },
     data () {
         return {
-            
+          movie_details : {}
         }
-  }
+  },
 }
 </script>
 

@@ -5,8 +5,8 @@
       <v-btn flat dark ripple :to="{name: 'index'}" >Cinerama</v-btn>
     </v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-text-field  hide-details v-model="movie_search" single-line label="Pesquisar Filmes" ></v-text-field>
-     <v-btn flat icon color="white" @click="search">
+    <v-text-field  hide-details v-model="movie_search" single-line label="Pesquisar Filmes" @keydown.enter="search"></v-text-field>
+     <v-btn flat icon color="white" @click="search" >
               <v-icon>search</v-icon>
             </v-btn>
     
@@ -88,7 +88,6 @@
         });
       },
       search(){
-        debugger
         this.$router.push({ name: "search-moviename",params:{moviename:this.movie_search} });
 
 

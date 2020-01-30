@@ -11,7 +11,7 @@
           <template v-for="(item, index) in movie_list">
             <v-subheader v-if="item.header" :key="item.header">{{ item.header }}</v-subheader>
             <v-divider v-else-if="item.divider" :inset="item.inset" :key="index"></v-divider>
-            <v-list-tile v-else :key="item.title" avatar :to="{name:'filme-movieid',params:{movieid:item.id}}">
+            <v-list-tile v-else :key="index" avatar :to="{name:'filme-movieid',params:{movieid:item.id}}">
               <v-list-tile-avatar tile>
                 <img :src="item.backdrop_path">
               </v-list-tile-avatar>

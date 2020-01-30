@@ -14,10 +14,8 @@ export default {
     asyncData (context){
       
         const username = context.params.username
-        debugger
         return AppApi.get_movie_list(username).then(
          result => {
-           debugger
         return {
 
           movie_list: result.data['movies']

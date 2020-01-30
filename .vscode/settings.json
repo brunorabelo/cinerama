@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/home/bruno/.environments/cinerama/bin/python"
+    "python.pythonPath": "/home/bruno/.environments/cinerama/bin/python",
+    "python.linting.pylintEnabled": false
 }

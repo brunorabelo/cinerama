@@ -6,6 +6,7 @@ from commons.django_model_utils import get_or_none
 from commons.django_views_utils import ajax_login_required
 from core.service import log_svc, cinerama_svc
 from django.views.decorators.csrf import csrf_exempt
+from core.models import User
 
 
 def dapau(request):
@@ -53,24 +54,26 @@ def save_rating(request):
     rating_info = json.loads(request.POST['rating_info'])
     user = request.user
     data = cinerama_svc.save_rating(user,rating_info)
-    return JsonResponse({})
+    return JsonResponse(data)
 
 def get_movie_details(request):
     movie_id = request.GET['movie_id']
-    user = request.user
+    user = request.user if request.user.is_authenticated() else None
     
     data = cinerama_svc.get_movie_details(user,movie_id)
 
-    return JsonResponse({})
+    return JsonResponse(data)
 
 @ajax_login_required
 def get_movie_list(request):
-    user = request.GET['user']
+    username = request.GET['user']
     #user = request.user
+
+    user = User.objects.get(username=username)
     
     data = cinerama_svc.get_user_movie_list(user)
 
-    return JsonResponse({})
+    return JsonResponse(data)
 
 def get_movies_search_result(request):
     movie_search = request.GET['movie_search']
