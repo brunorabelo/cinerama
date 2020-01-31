@@ -86,6 +86,7 @@
           this.$store.commit('SET_LOGGED_USER', null);
           Snacks.show(this.$store, {text: 'Até logo!'})
         });
+
       },
       search(){
         this.$router.push({ name: "search-moviename",params:{moviename:this.movie_search} });

@@ -48,6 +48,8 @@ export default {
           this.$store.commit('SET_LOGGED_USER', user);
           this.visible = false;
           console.log('logged')
+
+          
         } else {
           this.error = true;
         }

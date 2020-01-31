@@ -13,13 +13,10 @@ export default {
     "movie-detail": movieDetail
   },
   data() {
-    return { movie_id: {}
-    ,
-    key:false };
+    return { movie_id: {}, key: false };
   },
   computed: {
     logged_user() {
-      
       return this.$store.getters.logged_user;
     }
   },
@@ -31,6 +28,12 @@ export default {
       };
     });
   },
+  watch: { logged_user: function(newUser, oldUser) {
+      
+      if(newUser !=null){
+        this.$router.go() 
+      }
+  } }
 };
 </script>
 
