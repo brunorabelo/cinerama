@@ -61,13 +61,13 @@ export default {
     return {
       loading: false,
       snack_text: "",
-      snackbar: false
+      snackbar: false,
+      rating_input: this.movie_details.user_rating
+
     };
   },
   computed: {
-    rating_input(){
-      return this.movie_details.user_rating
-    },
+    
 
     logged_user() {
       return this.$store.getters.logged_user;
@@ -79,8 +79,9 @@ export default {
     },
     save_rating() {
       this.loading = true;
-
+      
       this.rating_info = {
+        
         user_rating: this.rating_input,
         movie_id: this.movie_details.id
       };
