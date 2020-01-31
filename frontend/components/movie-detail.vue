@@ -56,8 +56,9 @@ import Snacks from "~/helpers/Snacks.js";
 export default {
   
   name: "movieDetail",
-  props: ["movie_details"],
+  props: ["movie_details",'logged_user'],
   data() {
+      
     return {
       loading: false,
       snack_text: "",
@@ -65,13 +66,6 @@ export default {
       rating_input: this.movie_details.user_rating
 
     };
-  },
-  computed: {
-    
-
-    logged_user() {
-      return this.$store.getters.logged_user;
-    }
   },
   methods: {
     reserve() {

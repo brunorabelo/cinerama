@@ -1,6 +1,6 @@
 <template>
   <div>
-    <movie-detail :movie_details="movie_details" />
+    <movie-detail v-bind:movie_details="movie_details" v-bind:logged_user="logged_user" />
   </div>
 </template>
 
@@ -13,8 +13,15 @@ export default {
     "movie-detail": movieDetail
   },
   data() {
-    return {
-    };
+    return { movie_id: {}
+    ,
+    key:false };
+  },
+  computed: {
+    logged_user() {
+      
+      return this.$store.getters.logged_user;
+    }
   },
   asyncData(context) {
     const movie_id = context.params.movieid;
@@ -23,7 +30,7 @@ export default {
         movie_details: result.data
       };
     });
-  }
+  },
 };
 </script>
 
