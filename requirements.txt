@@ -2,7 +2,7 @@ astroid==2.3.3
 certifi==2019.11.28
 chardet==3.0.4
 coverage==4.5
-Django==1.11
+Django==1.11.28
 django-sql-explorer==1.1.1
 idna==2.8
 isort==4.3.21
