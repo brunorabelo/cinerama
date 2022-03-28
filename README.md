@@ -8,3 +8,4 @@ Features:
 - Rate movies
 - Movies database from TMDB API
 - Movies in theathers now in the home page
+- Backend tests
